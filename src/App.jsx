@@ -9,8 +9,8 @@ function App() {
     fetch(info)
       .then(response => response.json())
       .then(data => {
-        console.log(data); // Logs the entire JSON object to the console
-        setList(data); // Optionally, you can update the state with the fetched data
+        console.log(data); 
+        setList(data); 
       })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
