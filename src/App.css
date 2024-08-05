@@ -54,6 +54,10 @@ button {
   left: 50%;
   transform: translateX(-50%);
   transition: all 0.3s ease;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0 5px 25px var(--Neon-Green);
 }
 @media only screen and (max-width: 320px) {
   .quote-conatainer {
@@ -61,5 +65,11 @@ button {
   }
   .quote-conatainer p {
     margin: 0.7em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .quote-conatainer {
+    width: 29rem;
+    height: 19rem;
   }
 }
