@@ -25,7 +25,7 @@ useEffect(() => {
     <div>
       <div className='quote-conatainer'>
         <div>
-        <h1>Advice # {number}</h1>
+        <h1>Advice #{number}</h1>
         <p>"{advice}"</p>
         <div>
         <img className='desktop' src="/images/pattern-divider-desktop.svg" alt="divider-desktop" />
