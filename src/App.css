@@ -1,0 +1,54 @@
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+body {
+  background-color: var(--Dark-Blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.quote-conatainer h1 {
+  color: var(--Neon-Green);
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.quote-conatainer {
+  background-color: var(--Dark-Grayish-Blue);
+  width: 100%;
+  height: 20rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.quote-conatainer p {
+  font-size: 28px;
+  color: var(--Light-Cyan);
+}
+.quote-conatainer img {
+  z-index: 9999;
+}
+.desktop {
+  display: none;
+}
+button {
+  background-color: var(--Neon-Green);
+  border-radius: 100%;
+  padding: 1em;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -1.2em;
+  left: 50%;
+  transform: translateX(-50%);
+}
