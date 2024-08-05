@@ -20,7 +20,7 @@ body {
 }
 .quote-conatainer {
   background-color: var(--Dark-Grayish-Blue);
-  width: 100%;
+  width: 22rem;
   height: 20rem;
   border-radius: 10px;
   display: flex;
@@ -33,6 +33,7 @@ body {
 .quote-conatainer p {
   font-size: 28px;
   color: var(--Light-Cyan);
+  margin: 0.9em;
 }
 .quote-conatainer img {
   z-index: 9999;
@@ -53,4 +54,12 @@ button {
   left: 50%;
   transform: translateX(-50%);
   transition: all 0.3s ease;
+}
+@media only screen and (max-width: 320px) {
+  .quote-conatainer {
+    width: 100%;
+  }
+  .quote-conatainer p {
+    margin: 0.7em;
+  }
 }
