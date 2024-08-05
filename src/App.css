@@ -16,6 +16,7 @@ body {
   color: var(--Neon-Green);
   text-transform: uppercase;
   font-size: 10px;
+  letter-spacing: 0.5em;
 }
 .quote-conatainer {
   background-color: var(--Dark-Grayish-Blue);
@@ -28,6 +29,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  position: relative;
 }
 .quote-conatainer p {
   font-size: 28px;
@@ -51,4 +53,5 @@ button {
   bottom: -1.2em;
   left: 50%;
   transform: translateX(-50%);
+  transition: all 0.3s ease;
 }
