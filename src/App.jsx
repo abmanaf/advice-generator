@@ -29,7 +29,7 @@ useEffect(() => {
         <p>"{advice}"</p>
         <div>
         <img className='desktop' src="/images/pattern-divider-desktop.svg" alt="divider-desktop" />
-        <img className='mobile' src="/images/pattern-divider-mobile.svg" alt="divider-mobile" /> <br />
+        <img className='mobile' src="/images/pattern-divider-mobile.svg" alt="divider-mobile" /><br />
         <button onClick={(e)=> hanldeClick()}><img src="/images/icon-dice.svg" alt="icon-dice" />
         </button>
         </div>
