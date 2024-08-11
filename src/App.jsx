@@ -17,6 +17,7 @@ const hanldeClick = async () => {
     console.error(err)
   }
 }
+
 useEffect(() => {
   hanldeClick()
 }, [])
