@@ -1,3 +1,6 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
 :root {
   --Light-Cyan: hsl(193, 38%, 86%);
   --Neon-Green: hsl(150, 100%, 66%);
